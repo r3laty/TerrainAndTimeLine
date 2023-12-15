@@ -268,7 +268,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490027714}
-  m_LocalRotation: {x: 0.15324469, y: -0.3718609, z: 0.062386915, w: 0.913424}
+  m_LocalRotation: {x: 0.12736322, y: -0.3734758, z: 0.0518504, w: 0.9173909}
   m_LocalPosition: {x: 0.85675573, y: 1.5080734, z: 1.4307709}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 1490645938}
   - component: {fileID: 1490645937}
   - component: {fileID: 1490645936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
