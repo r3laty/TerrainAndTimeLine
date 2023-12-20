@@ -854,7 +854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1282271727}
-  - component: {fileID: 1282271726}
+  - component: {fileID: 1282271728}
   m_Layer: 0
   m_Name: TimelineHandler
   m_TagString: Untagged
@@ -862,60 +862,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!320 &1282271726
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1282271725}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: -5360681385028827564, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -3352599441650477459, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -7093603141215499162, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -6163787440432947707, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -345829362251263317, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 6309163401300019031, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 7496644310289510988, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -443617682102858920, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 874512049}
-  - key: {fileID: -890674682570308620, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 41215810}
-  - key: {fileID: 4079914829669278843, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 942677958}
-  - key: {fileID: -9009429522834758526, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 5734097063855046957}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 3101124902382188508, guid: f0049eaf25ee3a343a69be928fc8a554, type: 2}
-    value: {fileID: 490027717}
-  m_ExposedReferences:
-    m_References:
-    - 30de47a83e92c02438c6c44d5af3e192: {fileID: 0}
-    - 91795f7cf1e85b44795b795f5874819e: {fileID: 5734097063855046956}
-    - dbfdb1ab410232c418083ae49d5ec5e9: {fileID: 667221687}
-    - 80807b807bbb40342b2cbc82e722f108: {fileID: 490027715}
-    - 4fc368ab29b72a54ab1d22376e4c0fc9: {fileID: 490027715}
-    - 430de293bd1e3be41b474c971e98c20b: {fileID: 626711896}
-    - 72779bb966f55c84ea8ba709de6fe110: {fileID: 1745621972}
 --- !u!4 &1282271727
 Transform:
   m_ObjectHideFlags: 0
@@ -931,6 +877,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1282271728
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282271725}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 78b98b6aea5714a4cb65cc47cf88ed53, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2616157886826531256, guid: 78b98b6aea5714a4cb65cc47cf88ed53, type: 2}
+    value: {fileID: 874512049}
+  - key: {fileID: -7818352322133682540, guid: 78b98b6aea5714a4cb65cc47cf88ed53, type: 2}
+    value: {fileID: 490027717}
+  - key: {fileID: -2300577357738079869, guid: 78b98b6aea5714a4cb65cc47cf88ed53, type: 2}
+    value: {fileID: 41215810}
+  - key: {fileID: -4580246879087335400, guid: 78b98b6aea5714a4cb65cc47cf88ed53, type: 2}
+    value: {fileID: 942677958}
+  - key: {fileID: -4012913342932966522, guid: 78b98b6aea5714a4cb65cc47cf88ed53, type: 2}
+    value: {fileID: 5734097063855046957}
+  m_ExposedReferences:
+    m_References:
+    - 218b7d9ab92736c429805b32c1215e50: {fileID: 1745621972}
+    - 584fa94fed60bf84e861e13904dce32d: {fileID: 667221687}
+    - 071e511ff022703459636b44baed36b5: {fileID: 490027715}
+    - 2dbc70b44dc76884787aa1472e1089c1: {fileID: 626711896}
 --- !u!1 &1413095087
 GameObject:
   m_ObjectHideFlags: 3
